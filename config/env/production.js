@@ -8,7 +8,9 @@ module.exports = {
   },
   port: process.env.PORT || 8443,
   db: {
-    uri: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://<MiSatay01>:<Nick2000>@ds033066.mlab.com:33066/misatay',
+    //MLab Account for Mongo DB - <MiSatay01>:<Nick2000>@ds033066.mlab.com:33066/misatay
+    //Heroku MongoDB Account - <MiSatay01>:<Nick2000>@ds035786.mlab.com:35786/heroku_lvs5pdrz
+    uri: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || '<MiSatay01>:<Nick2000>@ds035786.mlab.com:35786/heroku_lvs5pdrz',
     options: {
       user: 'MiSatay01',
       pass: 'Nick2000'
