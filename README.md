@@ -304,6 +304,12 @@ in Bluemix complete with a pre-configured build and deploy pipeline.  Just clone
 commit them back.  Once your changes are committed, the build and deploy pipeline will run automatically deploying
 your changes to Bluemix.
 
+###  Deploying MEANJS To AMAZON EC2
+
+GitHub 
+Needs AWS CodeDeploy Management
+
+
 ## Credits
 Inspired by the great work of [Madhusudhan Srinivasa](https://github.com/madhums/)
 The MEAN name was coined by [Valeri Karpov](http://blog.mongodb.org/post/49262866911/the-mean-stack-mongodb-expressjs-angularjs-and)
